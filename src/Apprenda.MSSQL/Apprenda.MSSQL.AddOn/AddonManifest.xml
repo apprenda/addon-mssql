@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<addonManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://schemas.apprenda.com/AddonManifest"
+               xsi:schemaLocation="http://schemas.apprenda.com/AddonManifest http://apprenda.com/schemas/platform/6.0/AddonManifest.xsd"
+               name="Microsoft SQL Server"
+               manifestVersion="1"
+               version="9.5.3"
+               description="Provides Microsoft SQL databases scoped to a development team."
+               deploymentNotes="This add-on assumes that you already have a Microsoft SQL Server instance running, configured with authentication, and one admin user.  The admin username and password are needed to create client databases."
+               developerHelp=""
+               vendor="Apprenda"
+               author="P. van Dorp">
+  <properties>
+    <property key="mssqlServer" displayName="Microsoft SQL Server" description="The server name of a Microsoft SQL Server instance." value=""/>
+    <property key="mssqlServerPort" displayName="Microsoft SQL Server Port" description="The server port of a Microsoft SQL Server instance." value=""/>
+    <property key="mssqlAdminDatabase" displayName="Microsoft SQL Server Master Database" description="The master database of a Microsoft SQL Server instance." value=""/>
+    <property key="mssqlAdminUser" displayName="Microsoft SQL Server Admin User" description="The username of a Microsoft SQL Server administrator." value=""/>
+    <property key="mssqlAdminPassword" displayName="Microsoft SQL Server Admin Password" description="The password of a Microsoft SQL Server administrator." value=""/>
+  </properties>
+</addonManifest>
